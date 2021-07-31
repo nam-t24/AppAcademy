@@ -1,0 +1,32 @@
+nav{
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+header > img{
+    
+}
+.head{
+    margin-bottom: 10px;
+}
+/* clear fix */
+.group:after{
+    content: "";
+    clear:both;
+    display: block;
+}
+
+header > nav > ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+header > nav> ul > li{
+    padding: 0px 20px;
+}
+/* nav > ul{
+    justify-content: space-between;
+} */
